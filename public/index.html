@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>快乐的小逗比们</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">昵称</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+        <h3 class="title">口令</h3>
+        <input class="passwordInput" type="password" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
